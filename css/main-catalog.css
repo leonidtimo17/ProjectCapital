@@ -1,0 +1,311 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+}
+.header{
+    width: 100%;
+    height: 122px;
+    display: grid;
+    position: fixed;
+    z-index: 1000;
+}
+.header_top{
+    display: flex;
+    width: 100%;
+    height: 77px;
+    background: #ffffff;
+}
+.wrapper{
+    width: 1140px;
+    margin: 0 auto;
+}
+.header_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.header_content a{
+    text-decoration: none;
+    background: none;
+}
+.fa-instagram{
+    font-size: 36px;
+    color: black;
+}
+.fa-instagram:hover{
+    color: #006635;
+}
+.logo{
+    width: 113px;
+    height: 73px;
+    margin-left: 124px;
+}
+.icon_navigate ul{
+    position: relative;
+    display: flex;
+}
+.icon_navigate ul li{
+    position: relative;
+    list-style: none;
+}
+.icon_navigate ul li a{
+    text-decoration: none;
+    display: inline-block;
+}
+.icon_navigate ul li a i{
+    font-size: 24px;
+    color: black;
+}
+.icon_navigate ul li a i:hover{
+    color: #006635;
+}
+.icon_navigate ul li a:first-child{
+    margin-right: 38px;
+}
+.icon_navigate ul li a:nth-child(2){
+    margin-right: 38px;
+}
+.icon_navigate ul li a:last-child{
+    margin-right: 0;
+}
+.nav{
+    position: relative;
+    width: 100%;
+    height: 45px;
+    background: #006635;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.nav ul{
+    position: relative;
+    display: flex;
+}
+.nav ul li{
+    position: relative;
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.nav ul li a{
+    margin-left: 18px;
+}
+.nav ul li a:first-child{
+    margin-left: 0;
+}
+.nav ul li a:hover{
+    color: #FD4D53;
+}
+.content_filter{
+    width: 100%;
+    height: 266px;
+}
+.form_filter{
+    width: 100%;
+    height: 144px;
+    background: rgba(196, 196, 196, 0.3);
+    position: relative;
+    top: 122px;
+    display: flex;
+}
+.form_filter .wrapper{
+    display: flex;
+    align-items: center;
+}
+.filter_categories{
+    width: 186px;
+    height: 84px;
+    display: grid;
+    align-items: center;
+}
+.filter_categories p{
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+}
+.container_select{
+    display: flex;
+    align-items: center;
+}
+.container_select select{
+    width: 58px;
+    height: 20px;
+    outline: none;
+    border: 1px solid #000000;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+}
+.container_select select:last-child{
+    margin-left: 10px;
+}
+.container_select label{
+    display: none;
+}
+.price{
+    display: flex;
+    align-items: center;
+}
+.price input{
+    width: 73px;
+    height: 20px;
+    outline: none;
+    border: 1px solid #000000;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    margin-left: 5px;
+    padding: 0 10px;
+}
+.price input:last-child{
+    margin-left: 4px;
+}
+.price label{
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: black;
+}
+.filter_address_button{
+    width: 383px;
+    height: 32px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 24px;
+}
+.filter_address_button label{
+    display: none;
+}
+#address{
+    width: 213px;
+    height: 20px;
+    border: 1px solid black;
+    outline: none;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    padding: 0 10px;
+}
+.btn_form{
+    width: 141px;
+    height: 32px;
+    border: 2px solid #006635;
+    outline: none;
+    border-radius: 5px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #006635;
+    text-align: center;
+}
+.btn_form:hover{
+    background: #006635;
+    color: #FFFFFF;
+    transition: 300ms;
+}
+.block_content{
+    display: flex;
+    width: 100%;
+    height: 402px;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+.tour_frame{
+    width: 654px;
+    height: 401px;
+    position: relative;
+    border: none;
+    outline: none;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.21);
+    border-radius: 5px;
+}
+.container_text{
+    width: 451px;
+    height: 401px;
+    position: relative;
+    display: grid;
+    align-items: center;
+    padding: 30px 40px;
+    background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, #F8F8F8 100%);
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.21);
+    border-radius: 5px;
+}
+.container_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container_title h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+}
+.container_title a{
+    text-decoration: none;
+}
+.container_title a i{
+    font-size: 24px;
+    color: #000000;
+}
+.container_title a i:hover{
+    color: #E31E25;
+    transition: 300ms;
+}
+.text_info{
+    width: 371px;
+    height: 110px;
+}
+.text_info h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: justify;
+    line-height: 14px;
+}
+.container_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container_bottom p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: #006635;
+}
+.container_bottom a{
+    text-decoration: none;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #006635;
+    width: 155px;
+    height: 30px;
+    border: 2px solid #006635;
+    border-radius: 5px;
+    text-align: center;
+    padding: 11px 0;
+    line-height: 4px;
+}
+.container_bottom a:hover{
+    color: #FFFFFF;
+    background: #006635;
+    transition: 300ms;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Catalog</title>
+    <link rel="stylesheet" href="fonts/fontawesome-free-5.15.1-web/css/regular.css">
+    <link rel="stylesheet" href="fonts/fontawesome-free-5.15.1-web/css/fontawesome.css">
+    <link rel="stylesheet" href="fonts/fontawesome-free-5.15.1-web/css/solid.css">
+    <link rel="stylesheet" href="fonts/fontawesome-free-5.15.1-web/css/brands.css">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link href = "https://fonts.googleapis.com/css3? family = Montserrat: weight @ 300; 400; 500; 700 & family = Roboto: weight @ 300; 400; 500; 700; 900 & family = Source + Sans + Pro: weight @ 300; 400; 600; 700; 900 & display = swap" rel = "stylesheet ">
+    <link rel="stylesheet" href="css/main-catalog.css">
+</head>
+<body>
+<header class="header">
+    <div class="header_top">
+        <div class="wrapper">
+            <div class="header_content">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="index.html"><img src="img/CompanyLogo.png" alt="logo" class="logo"></a>
+                <nav class="icon_navigate">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="far fa-bell"></i>
+                            </a>
+                            <a href="favorites.html">
+                                <i class="far fa-heart"></i>
+                            </a>
+                            <a href="#">
+                                <i class="far fa-user"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <nav class="nav">
+        <ul>
+            <li>
+                <a href="catalog.html">Каталог</a>
+                <a href="sales.html">Продажа</a>
+                <a href="commercial.html">Коммерческая</a>
+                <a href="rent.html">Аренда</a>
+                <a href="mortgage.html">Ипотека</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<section class="content_filter">
+    <form action="#" class="form_filter">
+        <div class="wrapper">
+            <div class="filter_categories">
+                <p>Фильтр</p>
+                <div class="container_select">
+                    <label for="type"></label>
+                    <select name="type" id="type">
+                        <option value="Тип">Снять</option>
+                        <option value="Купить">Купить</option>
+                        <option value="Новостройки">Новостройки</option>
+                    </select>
+                    <label for="room"></label>
+                    <select name="number_room" id="room">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="Студия">Студия</option>
+                    </select>
+                </div>
+                <div class="price">
+                    <label for="price_list">Цена:</label>
+                    <input type="number" id="price_list" placeholder="От">
+                    <label for="price_do"></label>
+                    <input type="number" id="price_do" placeholder="До">
+                </div>
+            </div>
+            <div class="filter_address_button">
+                <label for="address"></label><input type="text" id="address" placeholder="Адрес, район или шоссе">
+                <input type="submit" class="btn_form">
+            </div>
+        </div>
+    </form>
+</section>
+<div class="wrapper">
+    <section class="block_content">
+        <iframe src="https://rec360.ru/tour/demotour.html" allowfullscreen="allowfullscreen" class="tour_frame"></iframe>
+        <div class="container_text">
+            <div class="container_title">
+                <h1>1 - комнатная квартира  50 m2, 10 этаж</h1>
+                <a href="#">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <div class="text_info">
+                <h2>
+                    Продается 1-комн. квартира, 32 м² 3 этаж, чистый подьезд. Дом 2016 года постройки<br>
+                    <br>
+                    Квартира чистая, светлая, санузел совм. балкон, тихие соседи. Жили год, продажа в связи с отъездом.<br>
+                    <br>
+                    Отличный район, тихий район. В шаговой доступности магазины, аптека, школа, детские сады.<br>
+                </h2>
+            </div>
+            <div class="container_bottom">
+                <p>3 000 000 $</p>
+                <a href="#">Связаться</a>
+            </div>
+        </div>
+    </section>
+</div>
+<form action="#">
+    <button type="submit" class="add_content"></button>
+</form>
+</body>
+</html>
